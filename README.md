@@ -8,7 +8,7 @@ To get started, you need to install the required libraries. You can do this by r
 pip install numpy pandas matplotlib seaborn scipy tensorly scikit-learn tqdm
 ```
 
-## Contents
+### Contents
 
 1. Introduction
 2. Setup
@@ -18,22 +18,22 @@ pip install numpy pandas matplotlib seaborn scipy tensorly scikit-learn tqdm
 6. Conclusion and Future Work
 7. References
 
-## Feature Extraction using HODA Algorithm
+### Feature Extraction using HODA Algorithm
 
 The HODA algorithm is used for supervised feature extraction from high-dimensional data. It is formulated to optimize the discrimination between classes by projecting the data onto a lower-dimensional space while preserving class separability.
 
-## Algorithm Overview
+### Algorithm Overview
 
 1. Initialization: Initialize the orthogonal basis factors.
 2. Calculate Cluster and Total Means: Calculate the within-cluster means and the total mean of the data.
 3. Iterative Optimization: Iteratively update the basis factors to maximize the between-class scatter and minimize the within-class scatter.
 4. Feature Projection: Project the data onto the lower-dimensional space defined by the optimized basis factors.
 
-## Fitting the Model
+### Fitting the Model
 
 After extracting the features using the HODA algorithm, the features are used to train a Support Vector Machine (SVM) classifier. The classifier is then evaluated on a test set to determine its accuracy and other performance metrics.
 
-## Applications
+### Applications
 
 This project demonstrates the use of HODA for facial recognition, but its applications extend far beyond celebrity photos. Here are some exciting ways this technology can be applied:
 
@@ -43,7 +43,7 @@ This project demonstrates the use of HODA for facial recognition, but its applic
 - Entertainment: Develop personalized user experiences in video games or virtual reality environments by recognizing players’ faces.
 - Marketing: Analyze customer reactions and engagement by recognizing and categorizing their facial expressions.
 
-## Conclusion
+### Conclusion
 
 This project serves as a foundational implementation of the HODA algorithm for facial recognition. While the current model demonstrates promising results, there’s always room for improvement! Here are some ways we can take this project to the next level:
 
