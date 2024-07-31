@@ -24,10 +24,10 @@ The HODA algorithm is used for supervised feature extraction from high-dimension
 
 ## Algorithm Overview
 
-	1.	Initialization: Initialize the orthogonal basis factors.
-	2.	Calculate Cluster and Total Means: Calculate the within-cluster means and the total mean of the data.
-	3.	Iterative Optimization: Iteratively update the basis factors to maximize the between-class scatter and minimize the within-class scatter.
-	4.	Feature Projection: Project the data onto the lower-dimensional space defined by the optimized basis factors.
+1. Initialization: Initialize the orthogonal basis factors.
+2. Calculate Cluster and Total Means: Calculate the within-cluster means and the total mean of the data.
+3. Iterative Optimization: Iteratively update the basis factors to maximize the between-class scatter and minimize the within-class scatter.
+4. Feature Projection: Project the data onto the lower-dimensional space defined by the optimized basis factors.
 
 ## Fitting the Model
 
@@ -37,20 +37,20 @@ After extracting the features using the HODA algorithm, the features are used to
 
 This project demonstrates the use of HODA for facial recognition, but its applications extend far beyond celebrity photos. Here are some exciting ways this technology can be applied:
 
-	•	Security Systems: Enhance the accuracy of security systems by integrating advanced facial recognition to identify individuals in real-time.
-	•	Social Media: Automatically tag friends in photos, making it easier to organize and share moments.
-	•	Healthcare: Assist in patient identification and streamline the administrative processes in hospitals.
-	•	Entertainment: Develop personalized user experiences in video games or virtual reality environments by recognizing players’ faces.
-	•	Marketing: Analyze customer reactions and engagement by recognizing and categorizing their facial expressions.
+- Security Systems: Enhance the accuracy of security systems by integrating advanced facial recognition to identify individuals in real-time.
+- Social Media: Automatically tag friends in photos, making it easier to organize and share moments.
+- Healthcare: Assist in patient identification and streamline the administrative processes in hospitals.
+- Entertainment: Develop personalized user experiences in video games or virtual reality environments by recognizing players’ faces.
+- Marketing: Analyze customer reactions and engagement by recognizing and categorizing their facial expressions.
 
 ## Conclusion
 
 This project serves as a foundational implementation of the HODA algorithm for facial recognition. While the current model demonstrates promising results, there’s always room for improvement! Here are some ways we can take this project to the next level:
 
-	•	Data Augmentation: Incorporate more diverse and larger datasets to enhance model robustness and accuracy.
-	•	Algorithm Optimization: Explore alternative optimization techniques to speed up the HODA algorithm and improve its convergence.
-	•	Integration with Other Models: Combine HODA with other machine learning models and techniques to create a more comprehensive and powerful recognition system.
-	•	User Interface: Develop a user-friendly interface that allows users to easily upload and classify new images.
+- Data Augmentation: Incorporate more diverse and larger datasets to enhance model robustness and accuracy.
+- Algorithm Optimization: Explore alternative optimization techniques to speed up the HODA algorithm and improve its convergence.
+- Integration with Other Models: Combine HODA with other machine learning models and techniques to create a more comprehensive and powerful recognition system.
+- User Interface: Develop a user-friendly interface that allows users to easily upload and classify new images.
 
 We hope you enjoy exploring this project and find it useful for your applications. Contributions and feedback are always welcome!
 
